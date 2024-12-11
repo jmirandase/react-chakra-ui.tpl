@@ -1,0 +1,43 @@
+{
+  "name": "react-chakra-ui.tpl",
+  "description": "App template built with React, Chakra UI v3, Vite, TypeScript, TanStack Router & TanStack Query",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "biome check --apply-unsafe --no-errors-on-unmatched --files-ignore-unknown=true ./",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.1.2",
+    "@emotion/react": "^11.13.3",
+    "@tanstack/react-query": "^5.61.0",
+    "@tanstack/react-router": "^1.82.1",
+    "lucide-react": "^0.399.0",
+    "next-themes": "^0.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.1",
+    "@eslint/js": "^9.16.0",
+    "@tanstack/eslint-plugin-query": "^5.60.1",
+    "@tanstack/react-query-devtools": "^5.61.0",
+    "@tanstack/router-devtools": "^1.82.1",
+    "@tanstack/router-plugin": "^1.81.9",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.16.0",
+    "jiti": "^2.4.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.3.6",
+    "vite-tsconfig-paths": "^5.1.2"
+  }
+}
